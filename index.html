@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content= "width=device-width, user-scalable=no">
+    <link rel="icon" href="img/icons8-money-bag-100.png">
+<link rel="apple-touch-icon" href="img/icons8-money-bag-100.png">
+
+    <title>Online Bank</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+  />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <!-- header/ before log in -->
+    <header id="header">
+       <nav id="nav">
+        <div class="nav-center">
+              <div class="nav-logo">
+         <img src="img/icons8-money-bag-100.png" class="logo-money" alt="money-logo">
+        </div>
+       <div class="terms-container">
+        <ul class="terms-policy">
+            <li>
+                <a href="https://www.termsfeed.com/public/uploads/2021/12/sample-terms-conditions-agreement.pdf" target="_blank">Terms & Policy</a>
+            </li>
+            <li>
+                <a href="https://dribbble.com/tags/bank_app" target="_blank">texasbank.com</a>
+            </li>
+            <li>
+                <a href="#">Call us: 2 33 33 33</a>
+            </li>
+        </ul>
+       </div>
+       <img src="img/united-states.png" class="usa-fleg" alt="flag-usa">
+        </div>
+       </nav>
+
+       <!-- log in form -->
+       <div class="two-header">
+       <div class="log-in-user">
+        <h2 class="hi">hallo, user!</h2>
+        <div class="reg-div">
+            <form class="reg-form">
+                <!-- user -->
+                <input type="text"
+                 placeholder="user" class="login__inputuser">
+                 <!-- pin -->
+                 <input type="text" placeholder="password" maxlength="4" class="login__inputpin">
+                <!-- button -->
+                 <button type="button" class="btn-login">log in</button>
+            </form>
+        </div>
+       </div>
+       <!-- inspiration -->
+       <h1 class="insp">Your partner bank <i class="fas fa-solid fa-handshake"></i></h1>
+       </div>
+    </header>
+
+    <div class="preloader">
+        <img src="img/Spinner-1s-200px.gif" alt="preloader">
+    </div>
+
+  <!-- main --> 
+   <main id="main">
+<!-- nav main -->
+<nav id="nav2">
+    <div class="main-center">
+          <div class="nav-logo">
+     <img src="img/icons8-money-bag-100.png" class="logo-main" alt="money-logo">
+        <p class="greeting">hallo, <span id="name">ana!</span> </p>
+    </div>
+   <div class="terms-container">
+    <ul class="operations-main">
+      
+        <li>
+            <a href="https://www.termsfeed.com/public/uploads/2021/12/sample-terms-conditions-agreement.pdf" target="_blank"> <span class="nav2-main">Terms & Policy</span> </a>
+        </li>
+        <li>
+            <a href="https://dribbble.com/tags/bank_app" target="_blank"> <span class="nav2-main site">texasbank.com</span></a>
+        </li>
+    </ul>
+   </div>
+   <div class="two-top">
+
+  
+   <div class="person-img">
+    <img src="img/f642798adb70c708fb681379affd6440.jpg" id="user-img" alt="user img">
+   </div>
+   <button type="button" class="btn-log-out">log out <span>&rightarrow;</span></button>
+    </div>
+    </div>
+   </nav>
+
+   
+   <!-- balance div -->
+   <div class="all-items">
+   <div class="balance-div">
+    <h2 class="balance-h2">your card</h2>
+    <!-- current date -->
+    <p class="date"><span id="day">12</span><span id="month">11</span><span id="year">2020</span><span id="hours">00</span><span id="minutes">00</span> <span id="session">AM</span></p>
+       
+    <!-- balance -->
+    <p class="balance">balance:<span id="balance-span">1000$</span></p>
+    <p class="credit-limit">credit limit:<span id="credit-span">2000$</span></p>
+    
+<!-- card photo -->
+    <div class="photo-card">
+        <img src="img/classic.jpg" class="card-photo" alt="visa card">
+    </div>
+    <!-- summary -->
+    <div class="summary-div">
+    <div class="income-div">
+     <p class="income">income: <span class="income-num">20 000$</span></p>
+    </div>
+    <div class="outcome-div">
+        <p class="outcome">outcome: <span class="outcome-num">4000$</span></p>
+    </div>
+    <div class="interest-div">
+        <p class="interest">point: <span class="interest-num">55.5$</span></p>
+    </div>
+    </div>
+   </div>
+
+  <div class="three-div-together">
+
+<div class="photo-ad">
+        <img src="img/Bank-Advertising-002-scaled.jpg" class="advertisement-photo"  alt="adv bank">
+      </div>
+
+<div class="two-div-together">
+
+      <div class="movements">
+        <div class="movements__row">
+          <div class="movements__type movements__type--deposit">2 deposit</div>
+          <div class="movements__date">3 days ago</div>
+          <div class="movements__value">4 000€</div>
+        </div>
+        <div class="movements__row">
+          <div class="movements__type movements__type--withdrawal">
+            1 withdrawal
+          </div>
+          <div class="movements__date">24/01/2037</div>
+          <div class="movements__value">-378€</div>
+        </div>
+      </div>
+
+   <div class="three-op">  
+    <div class="first-op">
+     <h2 class="transfer-h2">Transfer To:</h2>
+     <form class="form form-transfer">
+        <input type="text" class="form__input form__input-to" />
+        <input type="number" class="form__input form__input-transfer" />
+        <button class="form__btn form__btn-transfer">&#10003;</button>
+        <label class="form__label transfer-label">Transfer to</label>
+        <label class="form__label form__label-transfer-amount">Amount</label>
+      </form>
+    </div>
+
+    <div class="sec-op">
+        <h2 class="credit-h2">Take a Credit:</h2>
+        <form class="form form--loan">
+            <input type="number" class="form__input form__input--loan-amount" />
+            <button class="form__btn form__btn--loan">&#10003;</button>
+            <label class="form__label form__label--loan">Amount</label>
+          </form>
+    </div>
+
+    <div class="third-op">
+        <h2 class="credit-h2">Pay Untities:</h2>
+        <form class="form form-untities">
+            <input type="number" class="form__input form__input--untities-amount" />
+            <select name="#" id="select-where" name="select-where" required>
+              
+                <option value="electricity">deni</option>
+                <option value="gas">gazi</option>
+                <option value="water">wyali</option>
+               </select>
+            <button class="form__btn form__btn-untities">&#10003;</button>
+            <label class="form__label utities-label">Amount</label>
+          </form>
+    </div>
+      </div>
+</div>
+  </div>
+          </div>
+       </main>
+    <script src="app.js"></script>
+</body>
+</html>
